@@ -48,7 +48,7 @@ export default function Home() {
             <div className="hero-brand-name">MS DANCEPIRATION BIDAR</div>
           </div>
           <h1 className="hero-title">Inspiring <span>Passion</span> Through Dance</h1>
-          <p className="hero-subtitle">MS Dancepiration Academy - Where art meets professional excellence.</p>
+          <p className="hero-subtitle">MS Dancepiration Academy Bidar - Where art meets professional excellence.</p>
           <div className="hero-btns">
             <a href="#contact" className="btn-primary">Book a Trial Class</a>
             <a href="#about" className="btn-secondary">Explore Our Legacy</a>
