@@ -29,7 +29,7 @@ export default function Header() {
       <div className="nav-container">
         <Link href="/" className="logo">
           <img src="/images/logo.png" alt="Logo" className="nav-logo-img" />
-          MS <span>DANCEPIRATION</span>
+          MS <span>DANCEPIRATION BIDAR</span>
         </Link>
         <nav className={`desktop-nav ${isMobileMenuOpen ? 'active' : ''}`}>
           {navLinks.map((link) => (
@@ -52,7 +52,6 @@ export default function Header() {
           <div className={`bar ${isMobileMenuOpen ? 'open' : ''}`}></div>
         </button>
       </div>
-
     </header>
   );
 }
