@@ -29,7 +29,7 @@ export default function Header() {
       <div className="nav-container">
         <Link href="/" className="logo">
           <img src="/images/logo.png" alt="Logo" className="nav-logo-img" />
-          MS <span>DANCEPIRATION BIDAR</span>
+          MS <span>DANCEPIRATION DANCE ACADEMY BIDAR</span>
         </Link>
         <nav className={`desktop-nav ${isMobileMenuOpen ? 'active' : ''}`}>
           {navLinks.map((link) => (

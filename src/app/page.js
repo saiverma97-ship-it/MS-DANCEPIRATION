@@ -45,7 +45,7 @@ export default function Home() {
         <div className="hero-content animate-fade-up">
           <div className="hero-brand-logo">
             <img src="/images/logo.png" alt="MS DanceLogo" />
-            <div className="hero-brand-name">MS DANCEPIRATION BIDAR</div>
+            <div className="hero-brand-name">MS DANCEPIRATION DANCE ACADEMY BIDAR</div>
           </div>
           <h1 className="hero-title">Inspiring <span>Passion</span> Through Dance</h1>
           <p className="hero-subtitle">MS Dancepiration Academy - Where art meets professional excellence.</p>
