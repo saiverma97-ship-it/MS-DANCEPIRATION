@@ -316,9 +316,10 @@ select:focus, textarea:focus, .contact-form input:focus { outline: none; border-
   .section-header h2 { font-size: 28px; }
   .stat-item h4 { font-size: 24px; }
   .footer-content { grid-template-columns: 1fr; gap: 35px; text-align: center; }
-  .header { padding: 15px 6%; }
-  .logo span { display: none; } /* Hide 'DANCEPIRATION' on tiny screens for MS Logo space */
-  .logo::after { content: ' DANCE'; color: var(--primary); } /* Shortened for mobile */
+  .header { padding: 15px 4%; }
+  .logo { font-size: 14px; gap: 8px; }
+  /* Show full name always */
+  .logo span { display: inline; }
 }
 
 @media (max-width: 360px) {
