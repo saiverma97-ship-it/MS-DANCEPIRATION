@@ -322,16 +322,31 @@ select:focus, textarea:focus, .contact-form input:focus { outline: none; border-
 }
 
 @media (max-width: 360px) {
-  section { padding: 60px 5%; }
+  section { padding: 60px 4%; }
   .preloader-logo { font-size: 16px; letter-spacing: 2px; }
   .hero-brand-logo img { width: 70px; height: 70px; }
 }
 
+/* Landscape Mode Optimization for Phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero-section { height: auto; min-height: 140vh; padding: 80px 0; }
+  .hero-brand-logo { margin-bottom: 20px; }
+  .hero-brand-logo img { width: 60px; height: 60px; }
+  .hero-title { font-size: 1.8rem; }
+  .hero-brand-name { font-size: 10px; }
+  .header { padding: 10px 5%; height: 60px; }
+  .nav-logo-img { width: 30px; height: 30px; }
+  .logo { font-size: 14px; }
+  .hero-btns { flex-direction: row; justify-content: center; gap: 10px; }
+  .btn-primary, .btn-secondary { width: auto; font-size: 12px; padding: 10px 20px; }
+}
+
 /* Global Overflow Protection */
 html, body {
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
   position: relative;
+  -webkit-text-size-adjust: 100%;
 }
 
 main {
