@@ -17,7 +17,7 @@ export default function Preloader() {
     <div className="preloader">
       <div className="preloader-content">
         <div className="preloader-logo">
-          MS <span>DANCEPIRATION DANCE ACADEMY BIDAR</span>
+          MS <span>DANCEPIRATION BIDAR</span>
         </div>
         <div className="preloader-line"></div>
       </div>
