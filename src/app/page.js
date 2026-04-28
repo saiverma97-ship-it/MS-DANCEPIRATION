@@ -200,12 +200,22 @@ export default function Home() {
           <div className="divider"></div>
         </div>
         <div className="gallery-masonry">
-          <img src="/images/journey_1.jpg" alt="Dance Performance" />
-          <img src="/images/journey_2.jpg" alt="Dance Competition Winners" />
-          <img src="/images/journey_3.jpg" alt="Group Dance Pose" />
-          <img src="/images/journey_4.jpg" alt="Stage Performance" />
-          <img src="/images/journey_5.jpg" alt="Award Ceremony" />
-          <img src="/images/journey_6.jpg" alt="Event Group Photo" />
+          {[
+            { src: '/images/gallery_1.jpg', caption: 'Classical Performance', label: 'Stage Show' },
+            { src: '/images/gallery_2.jpg', caption: 'Genius Public School', label: 'Competition' },
+            { src: '/images/gallery_3.jpg', caption: 'Championship Win', label: 'Award Ceremony' },
+            { src: '/images/gallery_4.jpg', caption: '1st Place Winners', label: 'Jan 2026' },
+            { src: '/images/gallery_5.jpg', caption: 'Women\'s Day Show', label: 'Special Event' },
+            { src: '/images/gallery_6.jpg', caption: 'Our Moments', label: 'MS Dancepiration' },
+          ].map((item, idx) => (
+            <div key={idx} className="gallery-item">
+              <img src={item.src} alt={item.caption} />
+              <div className="gallery-overlay">
+                <span className="gallery-label">{item.label}</span>
+                <p className="gallery-caption">{item.caption}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
